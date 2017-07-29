@@ -1,0 +1,95 @@
+h1{
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100px;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+header{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    0%   {margin-top: 150%;}
+    60%  {margin-top: -5%;}
+    100% {margin-top: 0%;}
+  }
+
+
+.menu h1 a:visited{
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100px;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  }
+
+  .contenido{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    bgcolor: #02010a;
+  }
+
+.imagen{
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
+  box-shadow: 2px;
+  color:#02010a;
+}
+
+.imagen2{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+  box-shadow: 2px;
+  color:#02010a;
+}
+
+
+.imagen3{
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+  box-shadow: 2px;
+  color:#02010a;
+
+}
+
+.bloque {
+  background-color: #d5c75f;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.bloque2{
+  border: 1px;
+  background-color: #d5c75f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  }
+
+.contenedor{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+  background-color: #d5c75f;
+}
+
+.footer{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #C6d5c5;
+}

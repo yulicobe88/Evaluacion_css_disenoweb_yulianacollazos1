@@ -1,0 +1,90 @@
+h1{
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100px;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  padding: 0px;
+  margin: 0px;
+
+  }
+
+header{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    0%   {margin-top: 150%;}
+    60%  {margin-top: -5%;}
+    100% {margin-top: 0%;}
+  }
+
+  .menu h1 a:visited{
+    background-color: #5b7989;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 100px;
+    color: white;
+    text-shadow: 2px 2px #02010a;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    }
+
+    .contenido{
+      align-items: center;
+      width: 900px;
+      bgcolor: #02010a;
+    }
+
+  div [class*="bloque"]{
+    min-height: 200px;
+    flex: 1 2 40%;
+  }
+
+  .bloque1 {
+    color: #FF000;
+    background-color: #82c3a6;
+    order: 1;
+  }
+  .bloque2trans {
+    color:#82c3a6 ;
+    order: 2;
+  }
+  .bloque2trans:hover {
+   transform: translate(20px,5px);
+   border: 2px
+  }
+
+  .bloque2rota {
+    border: 1px
+    color:#d5c75f ;
+    background-color: #d5c75f;
+    order: 2;
+  }
+  .bloque2rota :hover{
+    transform: rotate(10deg);
+    border: 2px
+
+  }
+
+  .bloque3 {
+    border: 1px
+    color:
+    background-color: #d5c75f;
+    order: 3;
+
+  }
+
+  .contenedor{
+    display: flex;
+    background-color: #d5c75f;
+  }
+
+    .footer{
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: #C6d5c5;
+    }
